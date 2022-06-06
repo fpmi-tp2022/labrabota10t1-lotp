@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>0</string>
+		<key>name</key>
+		<string>Corner Hotel</string>
+		<key>description</key>
+		<string>The simply furnished rooms feature Wi-Fi,flat-screen TVs,mini-fridges and private bathrooms with showers.A buffet breakfast is served in a simple restaurant.The hotel also has a business center and a conference room.</string>
+		<key>city</key>
+		<string>Vilnius</string>
+		<key>address</key>
+		<string>T. Ševčenkos g. 16, Vilnius 03111, Lituania</string>
+		<key>price</key>
+		<string>165 Br</string>
+        <key>telephone</key>
+        <string>+370 5 210 2361</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>1</string>
+		<key>name</key>
+		<string>Urbihop Hotel</string>
+		<key>description</key>
+		<string>A modern hotel next to the SEB Arena sports and entertainment complex. Gediminas Tower is 6 km away, and Vilnius Train Station is 8 km away.</string>
+		<key>city</key>
+		<string>Vilnius</string>
+		<key>address</key>
+		<string>Ąžuolyno g. 7, Vilnius 07196, Lituania</string>
+		<key>price</key>
+		<string>145 Br</string>
+        <key>telephone</key>
+        <string>+370 5 252 6262</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>2</string>
+		<key>name</key>
+		<string>Hotel "Орбита"</string>
+		<key>description</key>
+		<string>This high-rise hotel is located 6 km from Victory Park, 8 km from the National Art Museum of the Republic of Belarus and 7 km from the Church of St. Simeon and St. Helena.</string>
+		<key>city</key>
+		<string>Minsk</string>
+		<key>address</key>
+		<string>39 Pushkin Avenue, Minsk</string>
+		<key>price</key>
+		<string>145 Br</string>
+        <key>telephone</key>
+        <string>8 017 373-77-81</string>
+	</dict>
+    <dict>
+        <key>image</key>
+        <string>4</string>
+        <key>name</key>
+        <string>Kriti Beach Hotel</string>
+        <key>description</key>
+        <string>Kriti Beach Hotel is located next to the Blue Flag beach of Rethymnon, a 5-minute walk from the Venetian Port. It features a heated pool, sauna, steam room and certified Greek breakfast.</string>
+        <key>city</key>
+        <string>Rethymno</string>
+        <key>address</key>
+        <string>Papanastasiou 18, Rethymo, Greece</string>
+        <key>price</key>
+        <string>from 165$/night</string>
+        <key>telephone</key>
+        <string>+30 2831 027401</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>5</string>
+        <key>name</key>
+        <string>Rosamar and Spa 4*s</string>
+        <key>description</key>
+        <string>Overlooking Lloret de Mar's beautiful coastline and great amenities, this 4-star hotel is located a short walk from the beach. The hotel is ideal for couples or families wishing to spend their holidays in a picturesque seaside resort.</string>
+        <key>city</key>
+        <string>Lloret de Mar's</string>
+        <key>address</key>
+        <string>Pau Casals 8-10, Lloret de Mar's, Spain</string>
+        <key>price</key>
+        <string>from 130$/night</string>
+        <key>telephone</key>
+        <string>+30 2831 027401</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>6</string>
+        <key>name</key>
+        <string>Hotel Saint-Petersbourg Opera and Spa</string>
+        <key>description</key>
+        <string>These include people who are passionate about the City of Lights, enthusiasts of Haute Couture or ready-to-wear, theatregoers, history buffs, opera aficionados, public bench lovers and many others who yearn for the many and varied pleasures of the French capital.</string>
+        <key>city</key>
+        <string>Paris</string>
+        <key>address</key>
+        <string>35, Rue Caumartin, Paris, France</string>
+        <key>price</key>
+        <string>from 550$/night</string>
+        <key>telephone</key>
+        <string>+30 2831 027401</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>7</string>
+        <key>name</key>
+        <string>Olivia Balmes Hotel</string>
+        <key>description</key>
+        <string>Olivia Balmes is located in Barcelona's elegant Eixample district, 400 meters from Passeig de Gracia. This modern hotel offers an outdoor pool, stylish air-conditioned rooms and a restaurant.</string>
+        <key>city</key>
+        <string>Paris</string>
+        <key>address</key>
+        <string>Balmes, 117, Barcelona, Spain</string>
+        <key>price</key>
+        <string>from 460$/night</string>
+        <key>telephone</key>
+        <string>+30 2831 027401</string>
+    </dict>
+    <dict>
+        <key>image</key>
+        <string>8</string>
+        <key>name</key>
+        <string>TH Roma - Carpegna Palace</string>
+        <key>description</key>
+        <string>TH Roma - Carpegna Palace is 200 meters from Cornelia Metro Station (line A) in Rome. It offers free parking and rooms with a flat-screen TV with satellite channels. The grounds feature a lush garden with centuries-old trees.</string>
+        <key>city</key>
+        <string>Rome</string>
+        <key>address</key>
+        <string>Via Aurelia 481, Rome, Italy</string>
+        <key>price</key>
+        <string>from 500$/night</string>
+        <key>telephone</key>
+        <string>+30 2831 027401</string>
+    </dict>
+</array>
+</plist>

@@ -1,0 +1,129 @@
+
+/* Class = "UIButton"; normalTitle = "Sign"; ObjectID = "2bx-gS-KdW"; */
+"2bx-gS-KdW.normalTitle" = "Sign";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "3uk-oN-s5r"; */
+"3uk-oN-s5r.text" = "Price";
+
+/* Class = "UIButton"; normalTitle = "Find"; ObjectID = "4DK-M4-MOI"; */
+"4DK-M4-MOI.normalTitle" = "Find";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5O0-Pd-OTB"; */
+"5O0-Pd-OTB.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7o0-Mm-AbF"; */
+"7o0-Mm-AbF.text" = "Label";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "8LI-D3-pO3"; */
+"8LI-D3-pO3.text" = "Password";
+
+/* Class = "UILabel"; text = "Telephone"; ObjectID = "8vq-Vm-jgF"; */
+"8vq-Vm-jgF.text" = "Telephone";
+
+/* Class = "UITextField"; placeholder = "From"; ObjectID = "9Hg-Jh-fCV"; */
+"9Hg-Jh-fCV.placeholder" = "From";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AYb-ye-rZD"; */
+"AYb-ye-rZD.text" = "Label";
+
+/* Class = "UILabel"; text = "Telephone"; ObjectID = "Bf3-IS-kJn"; */
+"Bf3-IS-kJn.text" = "Telephone";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "D3Q-aV-hxd"; */
+"D3Q-aV-hxd.text" = "Name";
+
+/* Class = "UILabel"; text = "Description"; ObjectID = "FVQ-J5-wcB"; */
+"FVQ-J5-wcB.text" = "Description";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "GID-Kb-ktu"; */
+"GID-Kb-ktu.text" = "Address";
+
+/* Class = "UINavigationItem"; title = "Hotels"; ObjectID = "IfE-4e-1Mz"; */
+"IfE-4e-1Mz.title" = "Hotels";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "LjR-19-9bM"; */
+"LjR-19-9bM.normalTitle" = "Next";
+
+/* Class = "UINavigationItem"; title = "Profile"; ObjectID = "OuK-VY-lIg"; */
+"OuK-VY-lIg.title" = "Profile";
+
+/* Class = "UISegmentedControl"; PBf-ef-dnP.segmentTitles[0] = "Hotels"; ObjectID = "PBf-ef-dnP"; */
+"PBf-ef-dnP.segmentTitles[0]" = "Hotels";
+
+/* Class = "UISegmentedControl"; PBf-ef-dnP.segmentTitles[1] = "Tickets"; ObjectID = "PBf-ef-dnP"; */
+"PBf-ef-dnP.segmentTitles[1]" = "Tickets";
+
+/* Class = "UILabel"; text = "Transport"; ObjectID = "Sxo-WO-OQV"; */
+"Sxo-WO-OQV.text" = "Transport";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "T8w-Su-JuC"; */
+"T8w-Su-JuC.text" = "Email";
+
+/* Class = "UILabel"; text = "Hotel Name"; ObjectID = "U0B-TW-0fy"; */
+"U0B-TW-0fy.text" = "Hotel Name";
+
+/* Class = "UITextField"; placeholder = "To"; ObjectID = "U7C-hX-DUv"; */
+"U7C-hX-DUv.placeholder" = "To";
+
+/* Class = "UILabel"; text = "CityFrom - cityTo"; ObjectID = "UQS-AM-fKF"; */
+"UQS-AM-fKF.text" = "CityFrom - cityTo";
+
+/* Class = "UILabel"; text = "Label11111111111111111111111111111"; ObjectID = "Vp6-6e-kbw"; */
+"Vp6-6e-kbw.text" = "Label11111111111111111111111111111";
+
+/* Class = "UIButton"; normalTitle = "Find"; ObjectID = "WwY-1s-CT4"; */
+"WwY-1s-CT4.normalTitle" = "Find";
+
+/* Class = "UILabel"; text = "Surname"; ObjectID = "Xgx-97-p9l"; */
+"Xgx-97-p9l.text" = "Surname";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "amx-R3-xSe"; */
+"amx-R3-xSe.text" = "Name";
+
+/* Class = "UINavigationItem"; title = "Transport"; ObjectID = "c0e-4z-NDs"; */
+"c0e-4z-NDs.title" = "Transport";
+
+/* Class = "UITextField"; placeholder = "Enter City"; ObjectID = "cA7-UH-ANe"; */
+"cA7-UH-ANe.placeholder" = "Enter City";
+
+/* Class = "UILabel"; text = "Hotel Name"; ObjectID = "cma-0m-hfG"; */
+"cma-0m-hfG.text" = "Hotel Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "coa-s1-ROZ"; */
+"coa-s1-ROZ.text" = "Label";
+
+/* Class = "UILabel"; text = "Price"; ObjectID = "dHf-mE-dT6"; */
+"dHf-mE-dT6.text" = "Price";
+
+/* Class = "UISegmentedControl"; f6n-Ms-m5r.segmentTitles[0] = "Sign In"; ObjectID = "f6n-Ms-m5r"; */
+"f6n-Ms-m5r.segmentTitles[0]" = "Sign In";
+
+/* Class = "UISegmentedControl"; f6n-Ms-m5r.segmentTitles[1] = "Sign Up"; ObjectID = "f6n-Ms-m5r"; */
+"f6n-Ms-m5r.segmentTitles[1]" = "Sign Up";
+
+/* Class = "UILabel"; text = "Hotel Name"; ObjectID = "n14-QL-fAV"; */
+"n14-QL-fAV.text" = "Hotel Name";
+
+/* Class = "UIButton"; normalTitle = "Book"; ObjectID = "nzg-xX-adK"; */
+"nzg-xX-adK.normalTitle" = "Book";
+
+/* Class = "UILabel"; text = "Address"; ObjectID = "qbl-7U-51U"; */
+"qbl-7U-51U.text" = "Address";
+
+/* Class = "UILabel"; text = "Plain"; ObjectID = "rNR-N7-CZa"; */
+"rNR-N7-CZa.text" = "Plain";
+
+/* Class = "UINavigationItem"; title = "Map"; ObjectID = "rcp-4o-6sd"; */
+"rcp-4o-6sd.title" = "Map";
+
+/* Class = "UILabel"; text = "Train"; ObjectID = "tiZ-Ww-On0"; */
+"tiZ-Ww-On0.text" = "Train";
+
+/* Class = "UILabel"; text = "Choose transport"; ObjectID = "tl7-2h-T49"; */
+"tl7-2h-T49.text" = "Choose transport";
+
+/* Class = "UIButton"; normalTitle = "Book"; ObjectID = "wgc-2n-weC"; */
+"wgc-2n-weC.normalTitle" = "Book";
+
+/* Class = "UILabel"; text = "Bus"; ObjectID = "zLf-qz-bFo"; */
+"zLf-qz-bFo.text" = "Bus";
