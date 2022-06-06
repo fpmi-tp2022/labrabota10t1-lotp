@@ -12,8 +12,8 @@ import CoreData
 
 class RoutesModel {
     static func setupDataBase() {
-        deleteAll()
-        UserDefaults.standard.set(false, forKey: "HasLaunchedOnce")
+        //deleteAll()
+        //UserDefaults.standard.set(false, forKey: "HasLaunchedOnce")
         if (!UserDefaults.standard.bool(forKey: "HasLaunchedOnce")) {
             UserDefaults.standard.set(true, forKey: "HasLaunchedOnce")
             UserDefaults.standard.synchronize()
