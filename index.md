@@ -5,9 +5,9 @@
 Также имеется роль администратора, который следит за работой приложения, добавляет отели и маршруты.
 
 
-### Основная информация - [`CLICK`](https://fpmi-tp2022.github.io/labrabota10t1-lotp/index.md)
-### Функциональные требования - [`CLICK`](https://fpmi-tp2022.github.io/labrabota10t1-lotp/functional_requirements.md)
-### Диаграммы файлов и вариантов использования - [`CLICK`](https://fpmi-tp2022.github.io/labrabota10t1-lotp/diagrams.md)
-### Дополнительная спецификация - [`CLICK`](https://fpmi-tp2022.github.io/labrabota10t1-lotp/additional_specification.md)
-### Схема базы данных - [`CLICK`](https://fpmi-tp2022.github.io/labrabota10t1-lotp/database.md)
-### Презентация проекта - [`CLICK`](https://fpmi-tp2022.github.io/labrabota10t1-lotp/presentation.md)
+### Основная информация - [`CLICK`](https://fpmi-tp2022.github.io/labrabota10t1-lotp/index)
+### Функциональные требования - [`CLICK`](https://fpmi-tp2022.github.io/labrabota10t1-lotp/functional_requirements)
+### Диаграммы файлов и вариантов использования - [`CLICK`](https://fpmi-tp2022.github.io/labrabota10t1-lotp/diagrams)
+### Дополнительная спецификация - [`CLICK`](https://fpmi-tp2022.github.io/labrabota10t1-lotp/additional_specification)
+### Схема базы данных - [`CLICK`](https://fpmi-tp2022.github.io/labrabota10t1-lotp/database)
+### Презентация проекта - [`CLICK`](https://fpmi-tp2022.github.io/labrabota10t1-lotp/presentation)
