@@ -5,7 +5,7 @@
 Также имеется роль администратора, который следит за работой приложения, добавляет отели и маршруты.
 
 
-### Основная информация - [`CLICK`](https://github.com/fpmi-tp2022/labrabota10t1-lotp/edit/gh-pages/index.md)
+### Основная информация - [`CLICK`](root/index.md)
 ### Функциональные требования - [`CLICK`](https://github.com/fpmi-tp2022/labrabota10t1-lotp/wiki/Functional-requirements)
 ### Диаграммы файлов и вариантов использования - [`CLICK`](https://github.com/fpmi-tp2022/labrabota10t1-lotp/wiki/File-and-use-case-diagrams)
 ### Дополнительная спецификация - [`CLICK`](https://github.com/fpmi-tp2022/labrabota10t1-lotp/wiki/Additional-specification)
