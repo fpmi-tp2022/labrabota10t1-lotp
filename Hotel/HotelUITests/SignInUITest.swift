@@ -80,7 +80,7 @@ class SignInUITest: XCTestCase {
         
         let returnButton = app/*@START_MENU_TOKEN@*/.buttons["Return"]/*[[".keyboards",".buttons[\"return\"]",".buttons[\"Return\"]"],[[[-1,2],[-1,1],[-1,0,1]],[[-1,2],[-1,1]]],[0]]@END_MENU_TOKEN@*/
         returnButton.tap()
-        
+    
         let element = app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
         element.children(matching: .textField).element(boundBy: 1).tap()
         tKey.tap()

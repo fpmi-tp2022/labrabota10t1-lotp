@@ -21,7 +21,6 @@ final class TabBarView: UIView {
     var delegate : ViewOutputDelegate?
     
     @IBAction func hotelTapped(_ sender: Any) {
-       print("Hi")
         delegate?.nextScene(name: "hotelNVC")
     }
     
