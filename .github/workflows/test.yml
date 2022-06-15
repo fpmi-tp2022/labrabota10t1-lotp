@@ -7,9 +7,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@master
-      - name: Build and Text
+      - name: Build and Test
         run: |
           cd Hotel
           xcodebuild clean build test -project Hotel.xcodeproj -scheme Hotel -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
         env:
-         destination: 'platform=iOS Simulator,OS=13.5,name=iPhone SE'
+         destination: 'platform=iOS Simulator,OS=15.2,name=iPhone SE (2nd generation)'
