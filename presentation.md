@@ -1,5 +1,5 @@
 ### Презентация проекта
-Ссылка на презентацию проекта: [`click here`](https://google.com)
+Ссылка на презентацию проекта: [`click here`](https://docs.google.com/presentation/d/1rz8tdHuqkE4_fBFP4G7TnNJcOUHU-Z4LnMLfd0EM9hg/edit?usp=sharing)
 
 
 ### Основная информация - [`CLICK`](https://fpmi-tp2022.github.io/labrabota10t1-lotp/index)
