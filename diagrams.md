@@ -6,7 +6,7 @@
 ## Диаграмма файлов приложения
 ![hotel (SubPackageStructureDiagramTemplate)](https://user-images.githubusercontent.com/79499100/173855373-394ddc69-11ea-4c96-be1e-ab3ca00afb42.png)
 ### Описание
-Модели, исползуемые в приложении, хранятся в папке Models, контроллеры - Controllers, вьюшки - Views. Для локализации используются папки ru.lproj, en.lproj, es.lproj, в которых хранятся файлы с расширением .strings и пары со значениями на соответствуюх языках. Для хранения данных используется info.plist.
+Модели, исползуемые в приложении, хранятся в папке Models, контроллеры - Controllers, вьюшки - Views. Для локализации используются папки ru.lproj, en.lproj, es.lproj, в которых хранятся файлы с расширением .strings и пары со значениями на соответствующих языках. Для хранения данных используется info.plist.
 
 ### Основная информация - [`CLICK`](https://fpmi-tp2022.github.io/labrabota10t1-lotp/index)
 ### Функциональные требования - [`CLICK`](https://fpmi-tp2022.github.io/labrabota10t1-lotp/functional_requirements)
