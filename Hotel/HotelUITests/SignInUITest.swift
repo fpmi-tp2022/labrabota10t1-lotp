@@ -22,7 +22,7 @@ class SignInUITest: XCTestCase {
     }
 
 
-    func testSignIn() throws {
+  func testSignIn() throws {
         let button = app.segmentedControls.buttons["Sign In"]
         button.tap()
         

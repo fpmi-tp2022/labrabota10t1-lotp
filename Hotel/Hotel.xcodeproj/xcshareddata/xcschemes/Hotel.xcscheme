@@ -53,6 +53,16 @@
                ReferencedContainer = "container:Hotel.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0E55FABF285A3ACC004F9ACE"
+               BuildableName = "HotelUnitTests.xctest"
+               BlueprintName = "HotelUnitTests"
+               ReferencedContainer = "container:Hotel.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
