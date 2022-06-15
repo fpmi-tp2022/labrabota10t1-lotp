@@ -1,4 +1,4 @@
-on: pull_request
+on: [push, pull_request]
 name: Test
 jobs:
   test:
@@ -11,5 +11,7 @@ jobs:
         run: |
           cd Hotel
           xcodebuild clean build test -project Hotel.xcodeproj -scheme Hotel -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO
+          xcodebuild clean build test -project Hotel.xcodeproj -scheme Hotel -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO  -testLanguage ru -testRegion ru_RU test
+          xcodebuild clean build test -project Hotel.xcodeproj -scheme Hotel -destination "${destination}" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO  -testLanguage es -testRegion es_ES test
         env:
          destination: 'platform=iOS Simulator,OS=15.2,name=iPhone SE (2nd generation)'
