@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="BookHotels" representedClassName="BookHotels" syncable="YES" codeGenerationType="class">
         <attribute name="address" optional="YES" attributeType="String"/>
         <attribute name="email" optional="YES" attributeType="String"/>
@@ -20,8 +20,8 @@
         <attribute name="name" optional="YES" attributeType="String"/>
     </entity>
     <elements>
-        <element name="Routes" positionX="-63" positionY="-18" width="128" height="118"/>
-        <element name="BookHotels" positionX="-45" positionY="36" width="128" height="103"/>
+        <element name="BookHotels" positionX="-305.01953125" positionY="162.9921875" width="128" height="103"/>
+        <element name="Routes" positionX="-213.99609375" positionY="-172" width="128" height="118"/>
         <element name="Tickets" positionX="-27" positionY="63" width="128" height="103"/>
     </elements>
 </model>

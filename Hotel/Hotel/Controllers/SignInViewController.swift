@@ -26,6 +26,8 @@ class SignInViewController: UIViewController {
     
     
     override func viewDidLoad() {
+        let tap = UITapGestureRecognizer(target: view, action: #selector(UIView.endEditing))
+        view.addGestureRecognizer(tap)
         super.viewDidLoad()
 
         

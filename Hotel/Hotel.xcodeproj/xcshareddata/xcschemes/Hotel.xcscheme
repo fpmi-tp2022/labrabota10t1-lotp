@@ -37,6 +37,21 @@
                BlueprintName = "HotelTests"
                ReferencedContainer = "container:Hotel.xcodeproj">
             </BuildableReference>
+            <SkippedTests>
+               <Test
+                  Identifier = "SignOutUITest">
+               </Test>
+            </SkippedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DA90A0BD2859E8D50018515B"
+               BuildableName = "HotelUITests.xctest"
+               BlueprintName = "HotelUITests"
+               ReferencedContainer = "container:Hotel.xcodeproj">
+            </BuildableReference>
          </TestableReference>
       </Testables>
    </TestAction>

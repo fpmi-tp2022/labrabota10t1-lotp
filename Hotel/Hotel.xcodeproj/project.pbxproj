@@ -34,10 +34,20 @@
 		9481B07428489A33001D0427 /* HotelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481B07328489A33001D0427 /* HotelCollectionViewCell.swift */; };
 		9481B07628489DF5001D0427 /* ReadHotels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9481B07528489DF5001D0427 /* ReadHotels.swift */; };
 		94ED3E0D2848A28F0036A8B4 /* HotelInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ED3E0C2848A28F0036A8B4 /* HotelInfoViewController.swift */; };
+		DA90A0C12859E8D50018515B /* HotelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA90A0C02859E8D50018515B /* HotelUITests.swift */; };
+		DA90A0CC2859F6C90018515B /* SignInUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA90A0CB2859F6C90018515B /* SignInUITest.swift */; };
+		DA90A0E3285A23330018515B /* SignOutUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA90A0E2285A23330018515B /* SignOutUITest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		9481B058284889E6001D0427 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9481B036284889D0001D0427 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9481B03D284889D0001D0427;
+			remoteInfo = Hotel;
+		};
+		DA90A0C32859E8D60018515B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9481B036284889D0001D0427 /* Project object */;
 			proxyType = 1;
@@ -84,6 +94,11 @@
 		9481B07328489A33001D0427 /* HotelCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelCollectionViewCell.swift; sourceTree = "<group>"; };
 		9481B07528489DF5001D0427 /* ReadHotels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReadHotels.swift; path = Hotel/Models/ReadHotels.swift; sourceTree = SOURCE_ROOT; };
 		94ED3E0C2848A28F0036A8B4 /* HotelInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelInfoViewController.swift; sourceTree = "<group>"; };
+		DA90A0BE2859E8D50018515B /* HotelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HotelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA90A0C02859E8D50018515B /* HotelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelUITests.swift; sourceTree = "<group>"; };
+		DA90A0C22859E8D50018515B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA90A0CB2859F6C90018515B /* SignInUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInUITest.swift; sourceTree = "<group>"; };
+		DA90A0E2285A23330018515B /* SignOutUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SignOutUITest.swift; path = HotelTests/SignOutUITest.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA90A0BB2859E8D50018515B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -109,6 +131,7 @@
 			children = (
 				9481B040284889D1001D0427 /* Hotel */,
 				9481B05A284889E6001D0427 /* HotelTests */,
+				DA90A0BF2859E8D50018515B /* HotelUITests */,
 				9481B03F284889D1001D0427 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -118,6 +141,7 @@
 			children = (
 				9481B03E284889D1001D0427 /* Hotel.app */,
 				9481B057284889E6001D0427 /* HotelTests.xctest */,
+				DA90A0BE2859E8D50018515B /* HotelUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,6 +216,17 @@
 			path = Hotel/Controllers;
 			sourceTree = SOURCE_ROOT;
 		};
+		DA90A0BF2859E8D50018515B /* HotelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA90A0E2285A23330018515B /* SignOutUITest.swift */,
+				DA90A0CB2859F6C90018515B /* SignInUITest.swift */,
+				DA90A0C02859E8D50018515B /* HotelUITests.swift */,
+				DA90A0C22859E8D50018515B /* Info.plist */,
+			);
+			path = HotelUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,13 +265,31 @@
 			productReference = 9481B057284889E6001D0427 /* HotelTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		DA90A0BD2859E8D50018515B /* HotelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA90A0C52859E8D60018515B /* Build configuration list for PBXNativeTarget "HotelUITests" */;
+			buildPhases = (
+				DA90A0BA2859E8D50018515B /* Sources */,
+				DA90A0BB2859E8D50018515B /* Frameworks */,
+				DA90A0BC2859E8D50018515B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA90A0C42859E8D60018515B /* PBXTargetDependency */,
+			);
+			name = HotelUITests;
+			productName = HotelUITests;
+			productReference = DA90A0BE2859E8D50018515B /* HotelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		9481B036284889D0001D0427 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = "Вероника";
 				TargetAttributes = {
@@ -245,6 +298,10 @@
 					};
 					9481B056284889E6001D0427 = {
 						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 9481B03D284889D0001D0427;
+					};
+					DA90A0BD2859E8D50018515B = {
+						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 9481B03D284889D0001D0427;
 					};
 				};
@@ -266,6 +323,7 @@
 			targets = (
 				9481B03D284889D0001D0427 /* Hotel */,
 				9481B056284889E6001D0427 /* HotelTests */,
+				DA90A0BD2859E8D50018515B /* HotelUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -285,6 +343,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		9481B055284889E6001D0427 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA90A0BC2859E8D50018515B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -329,6 +394,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DA90A0BA2859E8D50018515B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA90A0E3285A23330018515B /* SignOutUITest.swift in Sources */,
+				DA90A0C12859E8D50018515B /* HotelUITests.swift in Sources */,
+				DA90A0CC2859F6C90018515B /* SignInUITest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -336,6 +411,11 @@
 			isa = PBXTargetDependency;
 			target = 9481B03D284889D0001D0427 /* Hotel */;
 			targetProxy = 9481B058284889E6001D0427 /* PBXContainerItemProxy */;
+		};
+		DA90A0C42859E8D60018515B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9481B03D284889D0001D0427 /* Hotel */;
+			targetProxy = DA90A0C32859E8D60018515B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -573,6 +653,48 @@
 			};
 			name = Release;
 		};
+		DA90A0C62859E8D60018515B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBDPL594K8;
+				INFOPLIST_FILE = HotelUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.HotelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hotel;
+			};
+			name = Debug;
+		};
+		DA90A0C72859E8D60018515B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBDPL594K8;
+				INFOPLIST_FILE = HotelUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.HotelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hotel;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -599,6 +721,15 @@
 			buildConfigurations = (
 				9481B064284889E6001D0427 /* Debug */,
 				9481B065284889E6001D0427 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA90A0C52859E8D60018515B /* Build configuration list for PBXNativeTarget "HotelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA90A0C62859E8D60018515B /* Debug */,
+				DA90A0C72859E8D60018515B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
